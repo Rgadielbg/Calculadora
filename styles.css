@@ -13,6 +13,21 @@ body {
     border-radius: 10px;
     width: 260px;
 }
+.calculadora .limpiar{
+ background-color: chocolate;
+}
+.calculadora .multiplicar{
+    background-color: chartreuse;
+}
+ .calculadora .restar{
+    background-color: crimson;
+}
+.calculadora .sumar{
+    background-color: darkcyan;
+}
+.calculadora .igual{
+    background-color: darkmagenta;
+}
 
 #pantalla {
     width: 100%;
@@ -27,6 +42,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 8px;
+    
    
 }
 
@@ -40,5 +56,9 @@ button {
 
 button:hover {
     background: #bbb;
+}
+#botones .numero{
+    background: aqua;
+    color: #391086;
 }
 
